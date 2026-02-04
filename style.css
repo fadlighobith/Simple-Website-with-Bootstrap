@@ -4,3 +4,38 @@
     background-size: cover;
     background-position: center;
 }
+
+.text-banner{
+    color: red;
+}
+
+.asset-hover{
+    transition: 0.3s;
+}
+
+.asset-hover:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.background-service{
+    height: auto;
+    background: black;
+}
+
+.icon-service{
+    width: 90px; height: 90px;
+    border: solid 2px #fff; border-radius: 50%;
+    color: #ffff;
+}
+
+.service-hover{
+    transition: 0.3s;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.service-hover:hover{
+    background-color: rgba(255, 255, 255, 0.107);
+    transition: 0.3s;
+}
