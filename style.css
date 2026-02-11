@@ -1,6 +1,6 @@
 .banner{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('wp13714354-claude-speed-desktop-wallpapers.jpg');
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('assets/wp13714354-claude-speed-desktop-wallpapers.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -16,6 +16,24 @@
 .asset-hover:hover{
     transform: scale(1.05);
     transition: 0.3s;
+}
+
+.background-product{
+    height: auto;
+    background: #e29f19;
+}
+
+.product-card{
+    background-color: rgb(50, 50, 50);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.product-card:hover{
+    background-color: rgb(8, 0, 255);
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .background-service{
