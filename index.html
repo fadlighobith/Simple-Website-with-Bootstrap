@@ -25,10 +25,11 @@
                             <a class="nav-link" href="#assets"><i class="bi bi-currency-dollar"></i>Assets</a>
                         </li>
                         <li class="nav-item me-5">
-                            <a class="nav-link" href="#service"><i class="bi bi-headset"></i>Service</a>
+                            
+                            <a class="nav-link" href="#product"><i class="bi bi-cart"></i>Products</a>
                         </li>
                         <li class="nav-item me-5">
-                            <a class="nav-link" href="#"><i class="bi bi-cart"></i>Shopping Cart</a>
+                            <a class="nav-link" href="#service"><i class="bi bi-headset"></i>Service</a>
                         </li>
                     </ul>
                 </div>
@@ -42,11 +43,12 @@
                     <h3 class="text-light text-center display-7 mb-1">What do you want to go pal??</h3><br>
                     <div class="input-group input-group-lg">
                         <select id="inputGroupSelect04" class="form-control">
-                            <option selected>Los Santos</option>
-                            <option value="1">San Fierro</option>
-                            <option value="2">Las Venturas</option>
-                            <option value="3">Liberty City</option>
-                            <option value="4">Vice City</option>
+                            <option selected disabled hidden>Choose your city...</option>
+                            <option value="1">Los Santos</option>
+                            <option value="2">San Fierro</option>
+                            <option value="3">Las Venturas</option>
+                            <option value="4">Liberty City</option>
+                            <option value="5">Vice City</option>
                         </select>
                         <button class="btn btn-lg btn-outline-warning text-light" type="button">Search</button>
                     </div>
@@ -61,7 +63,7 @@
                     <div class="row mt-5 justify-content-center">
                     <div class="col md-3 asset-hover">
                         <div class="card">
-                            <img src="Assets-GTASA-BurgerShot.webp" alt="burger_shot" class="card-img-top" height="300px">
+                            <img src="assets/Assets-GTASA-BurgerShot.webp" alt="burger_shot" class="card-img-top" height="300px">
                             <div class="card-body">
                                 <h5 class="card-title">Assets that increase every week! Don't run out of your quota</h5>
                                 <p class="card-text">Fast food burgers in Las Venturas</p>
@@ -71,7 +73,7 @@
                     </div>
                     <div class="col md-3 asset-hover">
                         <div class="card">
-                            <img src="Assets-GTASA-RoboisFoodMart.webp" alt="robois_foodmart" class="card-img-top" height="300px">
+                            <img src="assets/Assets-GTASA-RoboisFoodMart.webp" alt="robois_foodmart" class="card-img-top" height="300px">
                             <div class="card-body">
                                 <h5 class="card-title">Invest here, store shares are on the rise!</h5>
                                 <p class="card-text">Convenience store in Los Santos</p>
@@ -81,7 +83,7 @@
                     </div>
                     <div class="col md-3 asset-hover">
                         <div class="card">
-                            <img src="Assets-GTASA-ZeroRC.webp" alt="zero_rc" class="card-img-top" height="300px">
+                            <img src="assets/Assets-GTASA-ZeroRC.webp" alt="zero_rc" class="card-img-top" height="300px">
                             <div class="card-body">
                                 <h5 class="card-title">Buy and invest, great toys will share profits with you!</h5>
                                 <p class="card-text">Unique toy store in San Fierro</p>
@@ -92,8 +94,57 @@
                     </div>
                 </div>
             </div>
-         </section>
-         <section id="service">
+        </section>
+        <section id="product">
+            <div class="container-fluid py-5 background-product">
+                <div class="container">
+                    <h2 class="text-center mb-5">Best Seller</h2>
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3 mb-3">
+                            <div class="card product-card">
+                                <img src="assets/MicroSMG-GTASA.webp" alt="Micro SMG" class="card-img-top">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-warning">Micro SMG</h5>
+                                    <p class="card-text text-light">Can be quite lethal at close range</p>
+                                    <h4 class="card-text text-warning">$ 500</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-3">
+                            <div class="card product-card">
+                                <img src="assets/Pistol-GTASA.webp" alt="Pistol" class="card-img-top">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-warning">Pistol</h5>
+                                    <p class="card-text text-light">Capable of one-headshot kill making it efficient</p>
+                                    <h4 class="card-text text-warning">$ 200</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-3">
+                            <div class="card product-card">
+                                <img src="assets/SMG-GTASA.webp" alt="MP5" class="card-img-top">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-warning">MP5</h5>
+                                    <p class="card-text text-light">One of the most powerful submachine guns</p>
+                                    <h4 class="card-text text-warning">$ 2,000</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-3">
+                            <div class="card product-card">
+                                <img src="assets/AK-47-GTASA.webp" alt="AK-47" class="card-img-top">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-warning">AK-47</h5>
+                                    <p class="card-text text-light">Powerful weapon with dealing considerable damage</p>
+                                    <h4 class="card-text text-warning">$ 4,200</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service">
             <div class="container-fluid py-5 main-color background-service">
                 <div class="container">
                     <h2 class="text-light text-center mb-5">Our Services</h2>
@@ -137,7 +188,7 @@
                     </div>
                 </div>
             </div>
-         </section>
+        </section>
         <script src="js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
