@@ -68,7 +68,6 @@
 
 /*REVIEW SECTION*/
 
-
 .testimony{
     background-color: #159647;
 }
@@ -124,11 +123,21 @@
 }
 
 .testimony .row{
-    gap: 20px;
     padding: 0px;
 }
 
+.ver-gap{
+    margin-bottom: 30px;
+}
+
+/*RESERVATION SECTION*/
+
+.reservation{
+    background-color: #108a7e;
+}
+
 /*SUBSCRIBE SECTION*/
+
 .footer{
     background:linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)),url('assets/2c7cf1-L10.webp');
     background-size: cover;
