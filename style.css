@@ -156,7 +156,15 @@
     transition: 0.3s;
 }
 
-/*UNIVERSAL*/
+/*UNIVERSAL FOR INDEX*/
 .text-muted{
     color: #ffffff !important;
+}
+
+/*PRODUCT*/
+.produk-banner{
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/pa6hpdcnsvf01.webp');
+    background-size: cover;
+    background-position: center;
 }
